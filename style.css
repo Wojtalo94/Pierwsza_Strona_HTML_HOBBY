@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* IMPORT CZCIONKI LOGO */
+
+@font-face {
+		font-family: 'latha';
+		src: url('assets/latha.ttf') format('truetype');
+}
+
+#logo {
+	width: 200px;
+	margin:35px auto 35px auto;
+}
+
+h1, h2 {
+	font-family: 'latha';
+	font-size: 22px;
+	letter-spacing: 1px;
+	padding: 3px 0;
+	
+}
+
+h2 {
+	font-size: 16px;
+	border-top: 1px solid #cccccc;
+	text-transform: uppercase;
+}
+
+ul {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #000000;
+	padding: 7px 25px;
+	font-size: 14px;
+}
+
+ul li a:hover, .active {
+	color: #FFFFFF;
+	background-color: #131e42;
+}
+
+#baner {
+	width: 100%; 
+	height: 650px;
+	background: url('images/2019.Wielka.Wieś.jpg') no-repeat;
+	border-top: 8px solid #131e42;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#slogan {
+	width: 320px;
+	height: 650px;
+	background-color: #131e42;
+	float: right;
+	position: relative;
+}
+
+#slogan h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#slogan p {
+	font-family: Verdana;
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: 300;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#traingle {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 28px solid #131e42;
+	position: absolute;
+	bottom: -20px;
+	right: 30px;
+}
+
+.col-one-third {
+	width: 320px;
+	float: left;
+	padding-top: 30px;
+}
+
+.col-one-third h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 15px; 
+	padding-left: 20px;
+}
+
+.col-one-third p {
+	font-family: Verdana;
+	font-size: 13px;
+	color: #000;
+	font-style: cursive;
+	line-height: 23px;
+	padding-left: 20px;
+}
+
+.contact {
+	font-weight: bold !important;
+	line-height: 35px !important;
+}
+
+#foter {
+	width: 100%;
+	background: #e5e5e5;
+	clear: both;
+}
+
+#foter p {
+	padding: 10px 0;
+	text-align:center;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
